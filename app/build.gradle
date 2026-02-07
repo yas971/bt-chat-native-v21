@@ -1,0 +1,15 @@
+apply plugin: 'com.android.application'
+android {
+    namespace 'com.native.chat'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.native.chat"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
